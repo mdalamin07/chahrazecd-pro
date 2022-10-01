@@ -10,22 +10,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
 	<!-- Main Css -->
-	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/Mainmap.min.css">
+	<link rel="stylesheet" href="css/map.css">
 	<link rel="stylesheet" href="css/style.css">                                
 </head>
-<body>
-    
-
-	<body class="demo-2 loading">
-		
-		
-		<main>
+<body class="theme loading">
+	<main>
+		<section id="header">
 			<div class="morph-wrap">
-				<!-- <svg class="morph" width="1400" height="770" viewBox="0 0 1400 770">
+				<svg class="morph" width="1400" height="770" viewBox="0 0 1400 770">
 					<path d="M 262.9,252.2 C 210.1,338.2 212.6,487.6 288.8,553.9 372.2,626.5 511.2,517.8 620.3,536.3 750.6,558.4 860.3,723 987.3,686.5 1089,657.3 1168,534.7 1173,429.2 1178,313.7 1096,189.1 995.1,130.7 852.1,47.07 658.8,78.95 498.1,119.2 410.7,141.1 322.6,154.8 262.9,252.2 Z"/>
-				</svg> -->
+				</svg>
 			</div>
-			
 			<nav class="menu js-menu-items-wrapper">
 				<div class="lp__nav__logo"><span>BASK</span>TOUR</div>
 				<!-- <div class="lp__nav__linkSet"> -->
@@ -56,112 +52,77 @@
 							<a href="#0">Login</a>
 						</li>
 					</ol>
-				<!-- </div> -->
-				<!-- <div class="lp__nav__linkSet">
-					<a href="#" class="lp__nav__link">Sign Up</a>
-					<a href="#" class="lp__nav__link">Login</a>
-				  </div> -->
 				<div class="menu-shape js-shape">
-					<!--?xml version="1.0" standalone="no"?-->
 					<svg id="sw-js-blob-svg" 
 						viewBox="0 0 100 100" 
 						xmlns="http://www.w3.org/2000/svg" 
 						version="1.1">                    
 						<defs>                         
-							<linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">                            <stop id="stop1" stop-color="rgba(248, 55, 218.853, 0.87)" offset="0%"></stop>                            <stop id="stop2" stop-color="rgba(251, 168, 31, 1)" offset="100%"></stop>                        </linearGradient>                    </defs>                <path fill="url(#sw-gradient)" d="M26.6,5.8C26.6,15.9,13.3,31.7,3.8,31.7C-5.6,31.7,-11.3,15.9,-11.3,5.8C-11.3,-4.2,-5.6,-8.4,3.8,-8.4C13.3,-8.4,26.6,-4.2,26.6,5.8Z" width="100%" height="100%" transform="translate(50 50)" stroke-width="0" style="transition: all 0.3s ease 0s;" stroke="url(#sw-gradient)"></path>              
+							<linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0"> 
+								<stop id="stop1" stop-color="rgba(248, 55, 218.853, 0.87)" offset="0%"></stop>                            
+								<stop id="stop2" stop-color="rgba(251, 168, 31, 1)" offset="100%"></stop>                        
+							</linearGradient>                    
+						</defs>                
+						<path 
+							fill="url(#sw-gradient)" 
+							d="M26.6,5.8C26.6,15.9,13.3,31.7,3.8,31.7C-5.6,31.7,-11.3,15.9,-11.3,5.8C-11.3,-4.2,-5.6,-8.4,3.8,-8.4C13.3,-8.4,26.6,-4.2,26.6,5.8Z" 
+							width="100%" 
+							height="100%" 
+							transform="translate(50 50)" 
+							stroke-width="0" style="transition: all 0.3s ease 0s;" 
+							stroke="url(#sw-gradient)">
+						</path>              
 					</svg>
-					<!-- <svg id="circle" viewBox="0 0 500 500">
-						<defs>
-							<linearGradient id="main-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-								<stop offset="10%" style="stop-color:#6426CB;"/>
-								<stop offset="100%" style="stop-color:#F34EA4;"/>
-							</linearGradient>
-						</defs>
-						<path id="object" class="js-items-shape-path" fill="url(#main-gradient)"
-							d="M 418.1,159.8 C 460.9,222.9 497,321.5 452.4,383.4 417.2,432.4 371.2,405.6 271.3,420.3 137.2,440 90.45,500.6 42.16,442.8 -9.572,381 86.33,289.1 117.7,215.5 144.3,153.4 145.7,54.21 212.7,36.25 290.3,15.36 373.9,94.6 418.1,159.8 Z">
-						</path>
-					</svg> -->
 				</div>
-			  </nav>
+			</nav>
 			<div class="content-wrap">
+				<div class="lp">
+					<!--- GRID --->
+					<section class="lp__grid-3">
+					<div class="lp__grid__item lp__grid-col">
+						<div class="textHolder">
+						<p>80,88,96,104,112,120,128,136,144,152,160,168,176</p>
+						</div>
+						<div class="lp__gridImage-1"></div>
+						<div class="image "></div>
+					</div>
+					<div class="lp__grid__item">
+						<div class="lp__subgrid lp__subgrid-sm">
+						<div>
+							<p>Lorem ipsum dolor </p>
+							<p>sit amet, consectetur elit</p>
+							<p>sed do eiusmod tempor incididunt </p>
+						</div>
+						<div class="lp__gridImage-2"></div>
+						</div>
+					</div>
+					<div class="lp__grid__item">
+						<div class="lp__subgrid lp__subgrid-md">
+						<h1><span>BASK</span>TOUR</h1>
+						<div class="image lp__gridImage-3"></div>
+						</div>
 				
-				<!-- <main> -->
-					<!--- NAV---->
-					<!-- <nav>
-					  <div class="lp__nav__logo"><span>BASK</span>TOUR</div>
-					  <div class="lp__nav__linkSet">
-						<a href="menu.html" class="lp__nav__link">About</a>
-						<a href="#" class="lp__nav__link">Shop</a>
-						<a href="#" class="lp__nav__link">Explore</a>
-						<a href="#" class="lp__nav__link">Contact</a>
-					  </div>
-					  <div class="lp__nav__linkSet">
-						<a href="#" class="lp__nav__link">Sign Up</a>
-						<a href="#" class="lp__nav__link">Login</a>
-					  </div>
-					</nav> -->
-					<!--- END NAV --->
-                    <div class="lp">
-						
-                      <!--- GRID --->
-                      <section class="lp__grid-3">
-                        <div class="lp__grid__item lp__grid-col">
-                          <div class="textHolder">
-                            <p>80,88,96,104,112,120,128,136,144,152,160,168,176</p>
-                          </div>
-                          <div class="lp__gridImage-1"></div>
-                          <div class="image "></div>
-                        </div>
-                        <div class="lp__grid__item">
-                          <div class="lp__subgrid lp__subgrid-sm">
-                            <div>
-                              <p>Lorem ipsum dolor </p>
-                              <p>sit amet, consectetur elit</p>
-                              <p>sed do eiusmod tempor incididunt </p>
-                            </div>
-                            <div class="lp__gridImage-2"></div>
-                          </div>
-                        </div>
-                        <div class="lp__grid__item">
-                          <div class="lp__subgrid lp__subgrid-md">
-                            <h1><span>BASK</span>TOUR</h1>
-                            <div class="image lp__gridImage-3"></div>
-                          </div>
-                  
-                        </div>
-                  
-                      </section>
-                      <!--- END GRID --->
-                  
-                      <!--- SOCIAL --->
-                      <section class="lp__social">
-                        <div class="lp__social__item"><img src="https://www.desertfinancial.com/-/media/desert-financial/learning-center-banner/test/iconfbshare.ashx" class="social__logo"></div>
-                        <div class="lp__social__item"><img src="https://www.desertfinancial.com/-/media/desert-financial/learning-center-banner/test/icontwshare.ashx" class="social__logo"></div>
-                  
-                      </section>
-                      <!--- END SOCIAL --->
-                  
-                    </div>
-                  <!-- </main> -->
-			</div>
-			<!-- <div class="content-wrap">
+					</div>
 				
-			</div>
-			<div class="content-wrap">
+					</section>
+					<!--- END GRID --->
 				
-			</div>
-			<div class="content-wrap">
-				
-			</div>
-			<div class="content-wrap">
-				
-			</div> -->
-			<div class="main">
-				<div class="intro">
-					<blockquote><em>“Twenty years from now you will be more disappointed by the things you didn’t do <br/>than by the ones you did do.”</em><span>Mark Twain</span></blockquote>
+					<!--- SOCIAL --->
+					<section class="lp__social">
+					<div class="lp__social__item"><img src="https://www.desertfinancial.com/-/media/desert-financial/learning-center-banner/test/iconfbshare.ashx" class="social__logo"></div>
+					<div class="lp__social__item"><img src="https://www.desertfinancial.com/-/media/desert-financial/learning-center-banner/test/icontwshare.ashx" class="social__logo"></div>
+					</section>
+					<!--- END SOCIAL --->
 				</div>
-				<div class="container"></div>
-				<div class="text">
+			</div>
+		</section>
+		<section id="map">
+			<div class="intro">
+				<blockquote><em>“Twenty years from now you will be more disappointed by the things you didn’t do <br/>than by the ones you did do.”</em><span>Mark Twain</span></blockquote>
+			</div>
+			<div class="container"></div>
+			<div class="content-wrap">
+				<div class="text ">
 					<section class="js-section" data-zoom-middle="2">
 						<h2><span class="title-up">France</span><span class="title-down">The Adventure Begins</span></h2>
 						<p class="text-intro">We caught glimpses of faces at most of the windows peering curiously at us and watching our progress through the town.</p>
@@ -250,14 +211,20 @@
 					<section class="js-section" data-stay="true" data-zoom-start="0.8"></section>
 				</div>
 			</div>
-		</main>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
-        <script src="https://tympanus.net/Development/MorphingBackgroundShapes/js/imagesloaded.pkgd.min.js"></script>
-        <script src="https://tympanus.net/Development/MorphingBackgroundShapes/js/anime.min.js"></script>
-        <script src="https://tympanus.net/Development/MorphingBackgroundShapes/js/scrollMonitor.js"></script>
-		<!-- Main Js -->
-		<script src="js/app.min.js"></script>
-		<script src="js/index.js"></script>
+		</section>
+		<!-- Related demos -->
+		<section class="content content--related">
+		</section>
+	</main>
+	<!-- Map Js -->
+	<script src="js/map.min.js"></script>
+	<!-- Libary Js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+	<script src="https://tympanus.net/Development/MorphingBackgroundShapes/js/imagesloaded.pkgd.min.js"></script>
+	<script src="https://tympanus.net/Development/MorphingBackgroundShapes/js/anime.min.js"></script>
+	<script src="https://tympanus.net/Development/MorphingBackgroundShapes/js/scrollMonitor.js"></script>
+	<!-- Main Js -->
+	<script src="js/index.js"></script>
 </body>
 </html>

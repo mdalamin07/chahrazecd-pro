@@ -829,11 +829,11 @@
 		c69.927-37.102,178.023-209.938,254.278-188.688c95.808,26.697,132.312,375.168,132.312,375.168"/>
 </g>
 <g id="points" display="none">
-	<circle id="Reykjavík" display="inline" fill="#405b54" cx="629.957" cy="663.596" r="5.782"/>
-	<circle id="Reykjanesta" display="inline" fill="#405b54" cx="415.661" cy="839.364" r="5.781"/>
-	<circle id="Krísuvíkurbjarg" display="inline" fill="#405b54" cx="578.029" cy="815.96" r="5.781"/>
-	<circle id="Hveragerði" display="inline" fill="#405b54" cx="781.354" cy="741.851" r="5.782"/>
-	<circle id="Gullfoss" display="inline" fill="#405b54" cx="1035.633" cy="553.162" r="5.782"/>
-	<circle id="Eyjafjallajökull" display="inline" fill="#405b54" cx="1169.476" cy="930.54" r="5.782"/>
+	<circle id="Freance" display="inline" fill="#405b54" cx="629.957" cy="663.596" r="5.782"/>
+	<circle id="Paris" display="inline" fill="#405b54" cx="415.661" cy="839.364" r="5.781"/>
+	<circle id="Marseille" display="inline" fill="#405b54" cx="578.029" cy="815.96" r="5.781"/>
+	<circle id="Lyon" display="inline" fill="#405b54" cx="781.354" cy="741.851" r="5.782"/>
+	<circle id="Toulouse" display="inline" fill="#405b54" cx="1035.633" cy="553.162" r="5.782"/>
+	<circle id="Nice" display="inline" fill="#405b54" cx="1169.476" cy="930.54" r="5.782"/>
 </g>
 </svg>
