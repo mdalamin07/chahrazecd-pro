@@ -2,7 +2,7 @@
  	Map Style Start Here 
 =================================*/
 /* Canvas container */
-.container {
+#map .container {
 	position: fixed;
 	top: 0;
 	left: 0;
