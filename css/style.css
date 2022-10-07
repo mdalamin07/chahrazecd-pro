@@ -800,3 +800,190 @@ transform: scale3d(0.5,0.5,1);
 /*=======================================
 	Background Shape Style End Here
 ========================================== */
+
+
+/*=======================================
+	Landing Area Start Here
+========================================== */
+.landing-hero {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+	background: #111111f1;
+  }
+  .landing-hero left {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: auto;
+	height: 100%;
+	background: #0BD3CD;
+  }
+  #piccial-left {
+	background: #f7d352;
+  }
+  .landing-hero left container {
+	position: relative;
+	display: block;
+	height: 100%;
+	width: auto;
+	padding: 0 60px;
+  }
+  .landing-hero left img {
+	position: relative;
+	display: block;
+	max-width: 100px;
+	width: 100px;
+	height: auto;
+	margin: 0 auto;
+	top: 50%;
+	transform: translateY(-50%);
+  }
+  .landing-hero container {
+	position: relative;
+	display: block;
+	width: 1080px;
+	margin: 0 auto;
+	padding: 230px 0 200px 200px;
+  }
+  .landing-hero heading {
+	position: relative;
+	display: inline-block;
+  }
+  .landing-hero subheading {
+	position: relative;
+	display: inline-block;
+	padding: 0 0 0 80px;
+	width: 250px;
+  }
+  .landing-hero span {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #0BD3CD;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+  }
+  #piccial-span {
+	color: #f7d352;
+  }
+  .landing-hero h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 72px;
+	color: #fff;
+	font-weight: bold;
+	margin-top: 10px;
+  }
+  .landing-hero h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	font-weight: normal;
+	line-height: 1.5;
+  }
+  .landing-hero right img {
+	position: absolute;
+	display: block;
+	top: 120px;
+	right: 0;
+	max-width: 300px;
+	width: 300px;
+  }
+  @media only screen and (max-width: 1680px) {
+	body .landing-hero left container {
+	  padding: 0 60px;
+	}
+	body .landing-hero container {
+	  padding: 230px 0 200px 230px;
+	}
+  }
+  @media only screen and (max-width: 1480px) {
+	body .landing-hero left container {
+	  width: auto;
+	  padding: 0 60px;
+	}
+	body .landing-hero container {
+	  width: auto;
+	  padding: 170px 100px 140px 320px;
+	}
+	body .landing-hero heading, body .landing-hero subheading {
+	  display: block;
+	}
+	body .landing-hero subheading {
+	  padding: 0;
+	}
+	body .landing-hero h3 {
+	  line-height: 1.8;
+	}
+	body .landing-hero right img {
+	  top: 86px;
+	  right: 250px;
+	}
+  }
+  @media only screen and (max-width: 1360px) {
+	body .landing-hero right img {
+	  top: 86px;
+	  right: 100px;
+	}
+  }
+  @media only screen and (max-width: 1200px) {
+	body .landing-hero left container {
+	  padding: 0 40px;
+	}
+	body .landing-hero container {
+	  padding: 170px 70px 140px 220px;
+	}
+	body .landing-hero left img {
+	  max-width: 75px;
+	  width: 75px;
+	}
+  }
+  @media only screen and (max-width: 1100px) {
+	body .landing-hero left {
+	  height: auto;
+	}
+	body .landing-hero left container {
+	  padding: 20px;
+	}
+	body .landing-hero left img {
+	  max-width: 50px;
+	  width: 50px;
+	  transform: none;
+	}
+	body .landing-hero container {
+	  padding: 170px 100px 140px 100px;
+	}
+  }
+  @media only screen and (max-width: 920px) {
+	body .landing-hero left img {
+	  max-width: 40px;
+	  width: 40px;
+	}
+	body .landing-hero container {
+	  padding: 120px 20px 350px 20px;
+	}
+	body .landing-hero h1 {
+	  font-size: 50px;
+	}
+	body .landing-hero heading, body .landing-hero subheading {
+	  text-align: center;
+	}
+	body .landing-hero subheading {
+	  width: auto;
+	}
+	body .landing-hero h1 {
+	  margin-bottom: 20px;
+	}
+	body .landing-hero right img {
+	  top: 380px;
+	  left: 0;
+	  right: 0;
+	  margin: 0 auto;
+	  max-width: 200px;
+	  width: 200px;
+	}
+  }
+/*=======================================
+	Landing Area End Here
+========================================== */
