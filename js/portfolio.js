@@ -1,4 +1,4 @@
-	var t =
+var t =
     "undefined" != typeof globalThis
       ? globalThis
       : "undefined" != typeof self

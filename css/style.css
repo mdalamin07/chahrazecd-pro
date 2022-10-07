@@ -476,7 +476,7 @@ min-height: 600px;
 pointer-events: none;
 }
 
-.content {
+#header.content {
 position: relative;
 display: grid;
 }

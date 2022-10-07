@@ -212,7 +212,7 @@ function hoverAnimation() {
 			tx: -150,
 			ty: 50,
 			fill: {
-				color: '#ff5e6c',
+				color: '#4b5d6e',
 				duration: 500,
 				easing: 'linear'
 			},
@@ -237,7 +237,7 @@ function hoverAnimation() {
 			tx: 400,
 			ty: -50,
 			fill: {
-				color: '#1e71bf',
+				color: '#4b5d6e',
 				duration: 500,
 				easing: 'linear'
 			},
@@ -261,7 +261,7 @@ function hoverAnimation() {
 			tx: 300,
 			ty: 50,
 			fill: {
-				color: '#076aff',
+				color: '#4b5d6e',
 				duration: 500,
 				easing: 'linear'
 			},
@@ -285,7 +285,7 @@ function hoverAnimation() {
 			tx: 0,
 			ty: 150,
 			fill: {
-				color: '#F8E8F9',
+				color: '#4b5d6e',
 				duration: 500,
 				easing: 'linear'
 			},
@@ -309,7 +309,7 @@ function hoverAnimation() {
 			tx: 0,
 			ty: 100,
 			fill: {
-				color: '#F8E8F9',
+				color: '#4b5d6e',
 				duration: 500,
 				easing: 'linear'
 			},

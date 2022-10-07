@@ -11,6 +11,7 @@ html {
   height: 100%;
   width: 100%;
 } */
+
 body {
   --color-text: #000;
   --color-text-alt: #000;
@@ -26,6 +27,12 @@ body {
   color: var(--color-text);
   font-family: halyard-display, sans-serif;
   margin: 0;
+}
+section#portfolio {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background: var(--color-bg);
 }
 .js .loading:after,
 .js .loading:before {
@@ -65,31 +72,28 @@ a,
 a:hover {
   outline: none;
 }
-a:hover {
+ a:hover {
   color: var(--color-link-hover);
 }
-a.link-alt,
-a:hover {
+ a.link-alt,
+ a:hover {
   text-decoration: none;
 }
-a.link-alt {
+ a.link-alt {
   color: var(--color-link-alt);
 }
-a:focus {
+ a:focus {
   background: #d3d3d3;
   outline: none;
 }
-a:focus:not(:focus-visible) {
+ a:focus:not(:focus-visible) {
   background: transparent;
 }
-a:focus-visible {
+ a:focus-visible {
   background: transparent;
   outline: 2px solid red;
 }
-main {
-  overflow: hidden;
-  position: relative;
-}
+
 .unbutton {
   background: none;
   border: 0;
@@ -100,33 +104,7 @@ main {
 .unbutton:focus {
   outline: none;
 }
-.frame {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 2rem;
-  padding: 1rem;
-  position: relative;
-  text-transform: uppercase;
-  z-index: 1000;
-}
-.frame__title {
-  font-size: 1rem;
-  margin: 0 0 1rem;
-}
-.frame__tagline {
-  color: var(--color-text-alt);
-}
-.frame__links {
-  display: inline;
-}
-.frame__links a:not(:last-child) {
-  margin-right: 1rem;
-}
-.frame__author {
-  display: block;
-  margin-bottom: 1rem;
-  width: 100%;
-}
+
 .item-wrap {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -157,13 +135,13 @@ main {
 .type {
   align-content: center;
   display: grid;
-  height: 100vmax;
+  height: 100vh;
   justify-content: center;
-  margin-top: -50vmax;
-  position: fixed;
+  /* margin-top: -20vh; */
+  position: absolute;
   text-align: center;
   text-transform: uppercase;
-  top: 50%;
+  top: 0;
   width: 100vmax;
   will-change: transform;
 }
@@ -212,7 +190,7 @@ main {
   grid-area: img;
   height: 250px;
   margin-bottom: 1rem;
-  overflow: hidden;
+  /* overflow: hidden; */
   transform-origin: 50% 100%;
   width: 100%;
 }
@@ -274,44 +252,10 @@ main {
   :root {
     font-size: 16px;
   }
-  body,
-  html {
+  /* body, */
+  /* html {
     overflow: hidden;
-  }
-  .frame {
-    align-content: space-between;
-    display: grid;
-    grid-template-areas: "title author links";
-    grid-template-columns: 40% 20% 40%;
-    left: 0;
-    margin: 0;
-    max-width: none;
-    padding: 1rem 2vw;
-    position: fixed;
-    text-align: left;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-  }
-  .frame__title-wrap {
-    grid-area: title;
-    text-align: left;
-  }
-  .frame__title {
-    margin: 0;
-  }
-  .frame__tagline {
-    position: relative;
-  }
-  .frame__author {
-    grid-area: author;
-    justify-self: center;
-  }
-  .frame__links {
-    grid-area: links;
-    justify-self: end;
-    padding: 0;
-  }
+  } */
   .item-wrap {
     align-items: center;
     display: flex;
