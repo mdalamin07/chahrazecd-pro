@@ -1,23 +1,10 @@
-/* *,
-:after,
-:before {
-  box-sizing: border-box;
-}
-:root {
-  font-size: 14px;
-}
-body,
-html {
-  height: 100%;
-  width: 100%;
-} */
 
 body {
-  --color-text: #000;
-  --color-text-alt: #000;
-  --color-bg: #de5f40ba;
-  --color-link: #000;
-  --color-link-hover: #000;
+  --color-text: #ffffff;
+  --color-text-alt: #ffffff;
+  --color-bg: #35454d;
+  --color-link: #ffffff;
+  --color-link-hover: #d6f2ff;
   --color-link-alt: #000;
   --color-type: #000;
   --type-line-opacity: 0.05;
@@ -227,7 +214,7 @@ a:hover {
   padding-right: 2rem;
 }
 .back {
-  stroke: #000;
+  stroke: #ffffff;
   background: none;
   border: 0;
   cursor: pointer;
@@ -245,7 +232,7 @@ a:hover {
 }
 .back:focus,
 .back:hover {
-  stroke: #823725;
+  stroke: #d6f2ff;
   outline: none;
 }
 @media screen and (min-width: 53em) {

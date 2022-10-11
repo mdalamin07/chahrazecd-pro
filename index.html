@@ -8,7 +8,7 @@
 	<!-- Menu CSS -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<!-- About CSS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 	<link rel="stylesheet" href="css/about.css">
@@ -23,6 +23,12 @@
 	<!-- Map CSS -->
 	<link rel="stylesheet" href="css/Mainmap.min.css">
 	<link rel="stylesheet" href="css/map.css">
+	<!-- OldBook CSS -->
+	<link rel="stylesheet" href="css/oldBook.css">
+	<!-- Book Animation -->
+	<link rel="stylesheet" href="css/bookAnimation.css">
+	<!-- Card CSS -->
+	<link rel="stylesheet" href="css/card.css">
 	<!-- Main CSS -->
 	<link rel="stylesheet" href="css/style.css">    
 </head>
@@ -133,7 +139,8 @@
 			<div class="content">
 				<section class="content__item content__item--home content__item--current">
 					<p class="content__paragraph content__paragraph--large content__paragraph--first" data-splitting="">Make Data</p>
-					<p class="content__paragraph content__paragraph--large content__paragraph--right content__paragraph--last" data-splitting=""></p>
+					<p class="about_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ad at hic, cupiditate nihil sunt nobis recusandae enim possimus saepe consequatur, atque eaque quisquam cum maxime facilis cumque sapiente, illo dolorum deserunt? Laborum totam vitae praesentium minus sapiente a eum perferendis architecto quis? Dolores architecto totam obcaecati, rem impedit tempora.</p>
+					<!-- <p class="content__paragraph content__paragraph--large content__paragraph--right content__paragraph--last" data-splitting=""></p> -->
 				</section>
 				<section class="content__item content__item--about">
 					<p class="content__paragraph" data-splitting="">Johnathan Flynn is</p>
@@ -147,10 +154,66 @@
 				</section>
 				<div class="button">
 					<a class="frame__about">
-						<span class="frame__about-item frame__about-item--current">About</span>
-						<span class="frame__about-item">Close</span>
+						<span class="frame__about-item frame__about-item--current">
+							<img src="img/arrow.png" alt="arrow image">
+							Reed More
+						</span>
+						<span class="frame__about-item close">
+							<img src="img/cancel.png" alt="arrow image">
+							Close
+						</span>
 					</a>
 				</div>
+			</div>
+		</section>
+		<section id="OldBook">
+			<div class="left-page">
+				<img src="https://www.oldbookillustrations.com/wp-content/uploads/2017/03/there-lonely.jpg"/>
+				<small>
+					But go there, lonely,
+					<br>At eventide,
+					<br>And hearken, hearken
+					<br>To the lisping tide.<br>
+				</small>
+			</div>
+			<div class="right-page">
+				<h2>[ 1 ]</h2>
+				<h1>Depender</h1>
+				<p>
+					En cuanto a todas las cosas que existen en el mundo, unas dependen de nosotros,
+				otras no dependen de nosotros. De nosotros dependen; nuestras opiniones, nuestros
+				movimientos, nuestros deseos, nuestras inclinaciones, nuestras aversiones; en una
+				palabra, todas nuestras acciones.<br>
+				Las cosas que no dependen de nosotros son: el cuerpo, los bienes, la reputación, la
+				honra; en una palabra, todo lo que no es nuestra propia acción.
+				Las cosas que dependen de nosotros son por naturaleza libres, nada puede
+				detenerlas, ni obstaculizarlas; las que no dependen de nosotros son débiles,
+				esclavas, dependientes, sujetas a mil obstáculos y a mil inconvenientes, y
+				enteramente ajenas.<br>
+				Recuerda pues que, si tu crees libres, a las cosas por naturaleza esclavas, y propias,
+				a las que dependen de otro; encontrarás obstáculos a cada paso, estarás afligido,
+				alterado, e increparas a Dios y a los Hombres. En cambio si tu tienes, a lo que te
+				pertenece, como propio y, a lo ajeno como de otro; nunca, nadie, te forzará a hacer lo
+				que no quieres ni te impedirá hacer lo que quieres. No increparás a nadie, ni
+				acusarás a persona alguna; no harás ni la más pequeña cosa, que no desees; nadie,
+				entonces, te hará mal alguno, y no tendrás enemigos, pues nada aceptarás que te
+				sea perjudicial<span id="dots">...</span><br>
+				<span id="more">
+					Aspirando entonces a tan grandes bienes, recuerda que tu no debes trabajar
+					mediocremente para lograrlos, y que, en lo que concierne a las cosas exteriores,
+					debes enteramente renunciar a algunas y diferir otras. Pues si buscas armonizarlas, y
+					ambicionas estos bienes y también riquezas y honores, quizá no obtengas ni siquiera
+					éstos últimos, por desear también los otros; pero con toda seguridad, no obtendrás
+					los únicos bienes con los que logras tu libertad y felicidad.<br>
+					Así, ante toda fantasía perturbadora, está presto a decir: <i>“Tu no eres sino una
+						imaginación, y en absoluto eres lo que parece”</i>, enseguida examínala con atención y
+					ponla a prueba, para ello sírvete de las reglas que tienes, principalmente con esta
+					primera que es, a saber : de si la cosa que te hace penar es del número de aquellas
+					que dependen de nosotros o de aquellas que no están en nuestro poder. Di sin
+						titubear: <i>“Esa en nada me atañe”.</i>
+				</span>
+				</p>
+				<button onclick="myFunction()" id="myBtn">Read more</button>
 			</div>
 		</section>
 		<section>
@@ -339,6 +402,124 @@
 				  </div>
 			</div>
 		</section>
+		<section id="book_animation">
+			<kinsta-advanced-cta language="en_US" type-int-post="10984" type-int-position="0">
+				<div class="advanced-cta-wrapper">
+					<div data-id="11" data-post="10984" data-language="en_US" style="background-color: black;" class="cta--bg--white box box--noshadow in-post-container cta--bg--image">
+						<div class="row ml--0 mr--0 flex-direction-column-reverse">
+							<div class="mt--xs--20 align-self-center col-xs-12 col-sm-8">
+								<p class="text--tiny mb--0 cta--color--green">KINSTA EB<span class="cta--color--green">OOKS</span></p>
+								<div class="pt--6"></div>
+								<h1 class="heading cta-in-article-heading cta--color--white">How to Speed up Your WordPress Site</h1>
+								<div class="pt--6"></div>
+								<div class="pt--6"></div>
+								<div class="pt--6"></div>
+								<p class="text--small abc cta--color--white">
+									Is your WordPress site slow? Whether you’re just starting to use WordPress or are a seasoned developer, you'll find<span class="cta--color--green"> 200</span>+ useful tips to speed up your site in this free guide.
+								</p>
+								<div class="pt--6"></div>
+								<div class="pt--6"></div>
+								<a href="#" class="button button--ghost--white"> Download for free </a>
+							</div>
+							<div class="align-self-center col-xs-12 col-sm-4">
+								<div class="pt--6"></div>
+								<div class="pt--6"></div>
+								<div class="pt--6"></div>
+								<div class="kinsta-book kinsta-book--animated kinsta-book--3d cta--ebook">
+									<div class="kinsta-book__cover kinsta-book__cover--front">
+										<figure>
+											<img
+												width="520"
+												height="690"
+												loading="lazy"
+												alt="How to Speed up Your WordPress Site"
+												src="https://kinsta.com/cta/v1/image/ebook/?id=aHR0cHM6Ly9raW5zdGEuY29tL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDIwLzAzL3NwZWVkLXVwLXdvcmRwcmVzcy1ndWlkZS1jcm9wcGVkLmpwZw=="
+											/>
+										</figure>
+									</div>
+									<ul class="kinsta-book__pages" aria-hidden="true">
+										<li class="kinsta-book__page">
+											<figure><img alt="" width="520" height="690" loading="lazy" aria-hidden="true" src="https://kinsta.com/cta/v1/images/ebook/page-1.png" /></figure>
+										</li>
+										<li class="kinsta-book__page">
+											<figure><img alt="" width="520" height="690" loading="lazy" aria-hidden="true" src="https://kinsta.com/cta/v1/images/ebook/page-generic.png" /></figure>
+										</li>
+										<li class="kinsta-book__page">
+											<figure><img alt="" width="520" height="690" loading="lazy" aria-hidden="true" src="https://kinsta.com/cta/v1/images/ebook/page-generic.png" /></figure>
+										</li>
+										<li class="kinsta-book__page">
+											<figure><img alt="" width="520" height="690" loading="lazy" aria-hidden="true" src="https://kinsta.com/cta/v1/images/ebook/page-2.png" /></figure>
+										</li>
+										<li class="kinsta-book__page"></li>
+									</ul>
+									<div class="kinsta-book__cover kinsta-book__cover--back" aria-hidden="true"><div class="kinsta-book__spine"></div></div>
+								</div>
+								<div class="pt--6"></div>
+								<div class="pt--6"></div>
+								<div class="pt--6"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</kinsta-advanced-cta>
+			
+		</section>
+		<section id="card">
+			<figure class="snip1533">
+				<figcaption>
+				  <blockquote>
+					<p>If you do the job badly enough, sometimes you don't get asked to do it again.</p>
+				  </blockquote>
+				  <h3>Wisteria Ravenclaw</h3>
+				  <h4>Google Inc.</h4>
+				</figcaption>
+			  </figure>
+			  <figure class="snip1533">
+				<figcaption>
+				  <blockquote>
+					<p>I'm killing time while I wait for life to shower me with meaning and happiness.</p>
+				  </blockquote>
+				  <h3>Ursula Gurnmeister</h3>
+				  <h4>Facebook</h4>
+				</figcaption>
+			  </figure>
+			  <figure class="snip1533">
+				<figcaption>
+				  <blockquote>
+					<p>The only skills I have the patience to learn are those that have no real application in life. </p>
+				  </blockquote>
+				  <h3>Ingredia Nutrisha</h3>
+				  <h4>Twitter</h4>
+				</figcaption>
+			  </figure>
+			  <figure class="snip1533">
+				<figcaption>
+				  <blockquote>
+					<p>The only skills I have the patience to learn are those that have no real application in life. </p>
+				  </blockquote>
+				  <h3>Ingredia Nutrisha</h3>
+				  <h4>Twitter</h4>
+				</figcaption>
+			  </figure>
+			  <figure class="snip1533">
+				<figcaption>
+				  <blockquote>
+					<p>The only skills I have the patience to learn are those that have no real application in life. </p>
+				  </blockquote>
+				  <h3>Ingredia Nutrisha</h3>
+				  <h4>Twitter</h4>
+				</figcaption>
+			  </figure>
+			  <figure class="snip1533">
+				<figcaption>
+				  <blockquote>
+					<p>The only skills I have the patience to learn are those that have no real application in life. </p>
+				  </blockquote>
+				  <h3>Ingredia Nutrisha</h3>
+				  <h4>Twitter</h4>
+				</figcaption>
+			  </figure>
+		</section>
 		<!-- Related demos -->
 		<section class="content content--related">
 		</section> 
@@ -346,6 +527,7 @@
 	<!-- Map Js -->
 	<script src="js/map.min.js"></script>
 	<!-- Libary Js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js" integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
 	<script src="https://tympanus.net/Development/MorphingBackgroundShapes/js/anime.min.js"></script>
