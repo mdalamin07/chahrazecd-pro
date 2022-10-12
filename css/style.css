@@ -272,7 +272,7 @@ font-size: 12px;
 }
 .lp__gridImage-1 {
 height: 496px;
-background: url('../img/image_part_001.jpg') no-repeat left;
+background: url('../img/test/1.jpg') no-repeat left;
 background-size: cover;
 }
 /*grid item 2 + 3*/
@@ -306,11 +306,11 @@ margin: 0;
 display: block;
 }
 .lp__gridImage-2 {
-background: url('../img/image_part_002.jpg') no-repeat top center;
+background: url('../img/test/2.jpg') no-repeat top center;
 background-size: cover;
 }
 .lp__gridImage-3 {
-background: url('../img/image_part_003.jpg') no-repeat center;
+background: url('../img/test/3.jpg') no-repeat center;
 background-size: cover;
 }
 /*SOCIAL*/
