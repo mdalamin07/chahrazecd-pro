@@ -1,11 +1,6 @@
 /*=======================
 	Menu Start Here
 ========================== */
-/* #4b5d6e
-#35454d
-#ebf8ff
-#d6f2ff
-#ffffff */
 * {
 outline: none;
 -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
@@ -69,7 +64,7 @@ animation-fill-mode: forwards;
 	font-size: 0.95vw;
 	font-weight: 700;
 	letter-spacing: 1px;
-	margin: 0 25px;
+	margin: 0 22px;
 	display: block;
 }
 @media only screen and (max-width: 800px) {
@@ -224,7 +219,7 @@ color: #fafafa;
 .lp__nav__logo {
 color: #fafafa;
 font-weight: 600;
-margin: 0 8px 0;
+margin: 0 0 10px 0;
 font-size: 18px;
 }
 .lp__nav__logo span {
@@ -272,7 +267,7 @@ font-size: 12px;
 }
 .lp__gridImage-1 {
 height: 496px;
-background: url('../img/test/1.jpg') no-repeat left;
+background: url('../img/header/1.jpg') no-repeat left;
 background-size: cover;
 }
 /*grid item 2 + 3*/
@@ -306,11 +301,11 @@ margin: 0;
 display: block;
 }
 .lp__gridImage-2 {
-background: url('../img/test/2.jpg') no-repeat top center;
+background: url('../img/header/2.jpg') no-repeat top center;
 background-size: cover;
 }
 .lp__gridImage-3 {
-background: url('../img/test/3.jpg') no-repeat center;
+background: url('../img/header/3.jpg') no-repeat center;
 background-size: cover;
 }
 /*SOCIAL*/

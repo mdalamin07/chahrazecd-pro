@@ -8727,7 +8727,7 @@ iframe.airtable-embed {
     color: #fff
 }
 
-.list,.user-content .list {
+#book_animation .list,.user-content .list {
     list-style-type: disc;
     margin-bottom: 28.8px;
     margin-left: 20px;
