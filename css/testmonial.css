@@ -33,7 +33,7 @@
 	text-align: right;
 }
 /* QUOTES */
-#testimonial q {quotes: '\201C' '\201D' '\2018' '\2019'; font-style: italic; display: inline-block; hanging-punctuation: first;color: #ebf8ff;}
+#testimonial q {quotes: '\201C' '\201D' '\2018' '\2019'; font-style: italic; display: inline-block; hanging-punctuation: first;color: #0e0e23;}
 #testimonial q:before {content: open-quote; position: relative; left:-.5%; margin-left: -2.5%; color: inherit}
 #testimonial q:after {content: close-quote; color: inherit}
 #testimonial q.larger-quote {font-weight: 100; font-size: 1.1em; line-height: 1.3}
@@ -57,6 +57,6 @@
 	        transition-timing-function: cubic-bezier(0.2,1,0.3,1)}
 #testimonial .nav--timiro .nav__item--current,
 #testimonial .nav--timiro .nav__item:not(.nav__item--current):focus, 
-#testimonial .nav--timiro .nav__item:not(.nav__item--current):hover {background: #7A99E8;
+#testimonial .nav--timiro .nav__item:not(.nav__item--current):hover {background: #0e0e23;;
   -webkit-transform: scale3d(1,1,1);
           transform: scale3d(1,1,1)}

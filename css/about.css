@@ -1,6 +1,6 @@
 #about{
     position: relative;
-    background-color: #35454df0;
+    background-color: #ebf0f7;
 }
 
 #about a {
@@ -53,7 +53,7 @@ em {
 }
 
 .frame__about-item--current {
-	color: #ebf8ff;
+	color: #0e0e23;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,7 +71,7 @@ em {
 }
 .content .about_text{
 	width: 65%;
-	color: #ebf8ff;
+	color: #0e0e23;
 }
 .content__item {
 	grid-area: content-item;
@@ -85,7 +85,7 @@ em {
 	height: 0;
 }
 .content__item span.char {
-    color: #ebf8ff;
+    color: #0e0e23;
 }
 .content__item--home {
 	justify-content: center;
@@ -209,7 +209,7 @@ em {
 		margin-top: -5vw;
 	}
 	.content__figure-caption {
-		color: #ebf8ff;
+		color: #0e0e23;
 		position: absolute;
 		right: 100%;
 		bottom: 0;
