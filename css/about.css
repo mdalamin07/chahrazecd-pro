@@ -1,6 +1,6 @@
 #about{
     position: relative;
-    background-color: #ebf0f7;
+    background-color: #ebf0f7e8;
 }
 
 #about a {
@@ -113,7 +113,7 @@ em {
 
 .content__paragraph {
 	font-family: freight-big-pro, serif;
-	font-size: 7vw;
+	font-size: 6vw;
 	font-weight: 300;
 	letter-spacing: -0.2vw;
 	word-spacing: 1vw;
@@ -215,7 +215,7 @@ em {
 		bottom: 0;
 		margin-right: 2rem;
 		text-align: right;
-		width: 50%;
+		width: 70%;
 		font-size: 1rem;
 		padding: 0;
 	}

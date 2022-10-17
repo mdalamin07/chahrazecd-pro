@@ -20,7 +20,7 @@
   width: 100%;
   background-color: #ffffff;
   border-radius: 5px;
-  border-top: 5px solid #d2652d;
+  border-top: 5px solid #ff622c;
 }
 
 #card .snip1533 *,
@@ -41,7 +41,7 @@
   background-color: #fff;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-  color: #d2652d;
+  color: #ff622c;
   content: "\f10e";
   font-family: 'FontAwesome';
   font-size: 32px;

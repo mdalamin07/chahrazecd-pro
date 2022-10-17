@@ -1,12 +1,12 @@
 
 body {
-  --color-text: #ffffff;
+  --color-text: #0e0e23;
   --color-text-alt: #ffffff;
-  --color-bg: #35454d;
+  --color-bg: #ebf0f7;
   --color-link: #ffffff;
   --color-link-hover: #d6f2ff;
   --color-link-alt: #000;
-  --color-type: #000;
+  --color-type: #0e0e23;
   --type-line-opacity: 0.05;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -214,7 +214,7 @@ a:hover {
   padding-right: 2rem;
 }
 .back {
-  stroke: #ffffff;
+  stroke: #ff622c;
   background: none;
   border: 0;
   cursor: pointer;
@@ -232,7 +232,7 @@ a:hover {
 }
 .back:focus,
 .back:hover {
-  stroke: #d6f2ff;
+  stroke: #0e0e23;
   outline: none;
 }
 @media screen and (min-width: 53em) {

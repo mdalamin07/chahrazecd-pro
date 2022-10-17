@@ -6,8 +6,8 @@ body {
   
   
   #OldBook {
-    background-color: #4b5d6e;
-    color: black;
+    background-color: #35454d;
+    color: #0e0e23;
     font-size: 1.1rem;
     display: flex;
     flex-direction: column;
@@ -47,13 +47,23 @@ body {
     letter-spacing: .1rem;
   }
   #OldBook button{
+    font-size: 16px;
+    color: #ffffff;
     margin-top: 1rem;
+    font-weight: 600;
     transition: 0.5s;
+    line-height: 25px;
+    text-align: center;
     padding: 0.5rem 1rem;
+    transition-delay: 0.1s;
+    text-transform: capitalize;
+    border: 1px solid #ff622c;
+    transition: all 200ms linear;
+    background-color: #ff622c;
     text-transform: capitalize;
   }
   #OldBook button:hover{
-    color: #35454d;
+    color: #0e0e23;
     background-color: #d6f2ff;
   }
   #OldBook .right-page {
@@ -106,7 +116,7 @@ body {
       padding-top: 14rem;
     }
     #OldBook .right-page {
-      padding-top: 0rem;
+      padding-top: 5rem;
       max-height: 100%;
       min-height: 100vh;
     }
