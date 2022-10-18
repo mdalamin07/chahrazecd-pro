@@ -19,7 +19,7 @@ em {
 	font-weight: 500;
 }
 
-.frame {
+#about .frame {
 	/* padding: 3rem 5vw;
 	text-align: center;
 	position: relative;
@@ -30,7 +30,7 @@ em {
 	text-align: center;
 	padding-bottom: 3rem;
 }
-.frame__about {
+#about .frame__about {
 	display: inline-block;
 	margin: 1rem 0;
 	font-weight: 700;
@@ -40,19 +40,19 @@ em {
 /* .frame__about span i,svg{
 	margin-right: 1rem;
 } */
-.frame__about img {
+#about .frame__about img {
 	width: 50%;
 	height: 7rem;
 	margin-right: 1rem;
 }
-.frame__about .close img{
+#about .frame__about .close img{
 	height: 5rem;
 }
-.frame__about-item {
+#about .frame__about-item {
 	display: none;
 }
 
-.frame__about-item--current {
+#about .frame__about-item--current {
 	color: #0e0e23;
     display: flex;
     justify-content: space-between;
@@ -61,7 +61,7 @@ em {
 #about .button {
     padding: 0rem 8vw 3rem;
 }
-.content {
+#about .content {
 	display: grid;
 	grid-template-columns: 100%;
 	grid-template-areas: "content-item";
@@ -69,11 +69,11 @@ em {
 	position: relative;
 	cursor: default;
 }
-.content .about_text{
+#about .content .about_text{
 	width: 65%;
 	color: #0e0e23;
 }
-.content__item {
+#about .content__item {
 	grid-area: content-item;
 	opacity: 0;
 	pointer-events: none;
@@ -84,22 +84,22 @@ em {
 	overflow: hidden;
 	height: 0;
 }
-.content__item span.char {
+#about .content__item span.char {
     color: #0e0e23;
 }
-.content__item--home {
+#about .content__item--home {
 	justify-content: center;
 	min-height: 300px;
 }
 
-.content__item--current {
+#about .content__item--current {
 	overflow: visible;
 	height: auto;
 	opacity: 1;
 	pointer-events: auto;
 }
 
-.content__item-credits {
+#about .content__item-credits {
 	margin-top: auto;
 	align-self: center;
 	max-width: 260px;
@@ -107,11 +107,11 @@ em {
 	padding-bottom: 3rem;
 }
 
-.content__item-credits a {
+#about .content__item-credits a {
 	white-space: nowrap;
 }
 
-.content__paragraph {
+#about .content__paragraph {
 	font-family: freight-big-pro, serif;
 	font-size: 6vw;
 	font-weight: 300;
@@ -129,40 +129,42 @@ em {
 	margin-top: auto;
 } */
 
-.content__paragraph--last {
+#about .content__paragraph--last {
 	margin-bottom: auto;
 }
 
-.content__paragraph--large {
+#about .content__paragraph--large {
 	font-size: 10vw;
 }
 
-.content__paragraph--right {
+#about .content__paragraph--right {
 	align-self: flex-end;
 }
 
-.content__figure {
+#about .content__figure {
 	margin: 0;
 	max-width: 100%;
 	margin-top: 0.5rem;
 	position: relative;
 }
 
-.content__figure-img {
+#about .content__figure-img {
+	width: 30vw;
+	height: 50vh;
 	max-width: 100%;
 }
 
-.content__figure-caption {
+#about .content__figure-caption {
 	margin: 1rem 0 0 0;
 	font-size: 0.85rem;
 	padding-bottom: 5rem;
 }
 
-.char {
+#about .char {
 	will-change: transform;
 }
 @media screen and (min-width: 53em) {
-	.frame {
+	#about .frame {
 		position: absolute;
 		text-align: left;
 		top: 0;
@@ -180,35 +182,35 @@ em {
 							'... ... ...'
 							'... ... credits';
 	}
-	.frame__about {
+	#about .frame__about {
 		margin: 0;
 		grid-area: about;
 		align-self: start;
 		justify-self: end;
 	}
-	.frame a {
+	#about .frame a {
 		pointer-events: auto;
 	}
-	.content__item {
+	#about .content__item {
 		min-height: 90vh;
 		padding: 3rem 8vw 0rem;
 	}
-	.content__title-inner--offset {
+	#about .content__title-inner--offset {
 	    margin-top: 3rem;
 	}
-	.content__title-seperator {
+	#about .content__title-seperator {
 		margin: 0 2rem;
 	}
-	.content__item--home {
+	#about .content__item--home {
 		max-height: none;
 	}
-	.content__figure {
+	#about .content__figure {
 		max-width: 48vw;
 		justify-self: flex-end;
 		margin-left: auto;
 		margin-top: -5vw;
 	}
-	.content__figure-caption {
+	#about .content__figure-caption {
 		color: #0e0e23;
 		position: absolute;
 		right: 100%;
@@ -219,7 +221,7 @@ em {
 		font-size: 1rem;
 		padding: 0;
 	}
-	.content__item-credits {
+	#about .content__item-credits {
 		align-self: center;
 		max-width: 260px;
 		text-align: center;
@@ -227,13 +229,13 @@ em {
 	}
 }
 /* Recommended styles for Splitting */
-.splitting .word,
-.splitting .char {
+#about .splitting .word,
+#about .splitting .char {
   display: inline-block;
 }
 
 /* Psuedo-element chars */
-.splitting .char {
+#about .splitting .char {
   position: relative;
 }
 
@@ -242,8 +244,8 @@ em {
  * Set to `display: none` by default; just add `display: block` when you want
  * to use the psuedo elements
  */
-.splitting .char::before,
-.splitting .char::after {
+ #about .splitting .char::before,
+ #about .splitting .char::after {
   content: attr(data-char);
   position: absolute;
   top: 0;
@@ -255,7 +257,7 @@ em {
 
 /* Expanded CSS Variables */
 
-.splitting {
+#about .splitting {
   /* The center word index */
   --word-center: calc((var(--word-total) - 1) / 2);
 
@@ -266,7 +268,7 @@ em {
   --line-center: calc((var(--line-total) - 1) / 2);
 }
 
-.splitting .word {
+#about .splitting .word {
   /* Pecent (0-1) of the word's position */
   --word-percent: calc(var(--word-index) / var(--word-total));
 
@@ -274,7 +276,7 @@ em {
   --line-percent: calc(var(--line-index) / var(--line-total));
 }
 
-.splitting .char {
+#about .splitting .char {
   /* Percent (0-1) of the char's position */
   --char-percent: calc(var(--char-index) / var(--char-total));
 
@@ -292,17 +294,17 @@ em {
   /* Distance from center where 1 is far left/far right, 0 is center */
   --distance-percent: calc((var(--distance) / var(--char-center)));
 }
-.splitting.cells img { width: 100%; display: block; }
+#about .splitting.cells img { width: 100%; display: block; }
 
 @supports ( display: grid ) {
-  .splitting.cells {
+	#about .splitting.cells {
     position: relative;
     overflow: hidden;
     background-size: cover;
     visibility: hidden;
   }
 
-  .splitting .cell-grid {
+  #about .splitting .cell-grid {
     background: inherit;
     position: absolute;
     top: 0; 
@@ -313,13 +315,13 @@ em {
     grid-template: repeat( var(--row-total), 1fr ) / repeat( var(--col-total), 1fr );
   }
 
-  .splitting .cell {
+  #about .splitting .cell {
     background: inherit;
     position: relative;
     overflow: hidden;
   }
 
-  .splitting .cell-inner {
+  #about .splitting .cell-inner {
     background: inherit;
     position: absolute;
     visibility: visible;
@@ -332,7 +334,7 @@ em {
   }
 
   /* Helper variables for advanced effects */
-  .splitting .cell {
+  #about .splitting .cell {
     --center-x: calc((var(--col-total) - 1) / 2);
     --center-y: calc((var(--row-total) - 1) / 2);
 

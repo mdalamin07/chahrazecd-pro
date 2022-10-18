@@ -201,15 +201,15 @@ font-family: sans-serif;
 /* color: rgba(0, 0, 0, 0.75); */
 }
 
-img {
+/* img {
 width: 100%;
-}
+} */
 .lp {
 width: 100%;
 }
-h1, p, a {
+/* #header h1, p, a {
 color: #fafafa;
-}
+} */
 /*NAV*/
 #header nav {
     padding: 24px 0px;

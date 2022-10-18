@@ -31,13 +31,14 @@ body {
     color: #ffffff;
   }
   #OldBook h2 {
-    color: #ffffff;
+    color: #ebf0f7;
     text-align: center;
     font-size: 1.2rem;
     font-weight: normal;
     margin-bottom: 3rem;
   }
   #OldBook h1 {
+    color: #ebf0f7;
     font-family: 'Ibarra Real Nova', serif;
     text-align: center;
     font-weight: 400;
@@ -72,6 +73,7 @@ body {
     z-index: 999;
   }
   #OldBook .right-page p {
+    color: #ebf0f7;
     line-height: 1.4;
     text-align: justify;
     text-justify: inter-word;
