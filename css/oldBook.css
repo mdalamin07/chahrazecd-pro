@@ -6,7 +6,7 @@ body {
   
   
   #OldBook {
-    background-color: #35454d;
+    background-color: #f8f3eb;
     color: #0e0e23;
     font-size: 1.1rem;
     display: flex;
@@ -24,21 +24,21 @@ body {
     color: #ffffff;
   }
   #OldBook #more {
-    color: #ffffff;
+    color: #0e0e23;
     display: none;
   }
   #OldBook #more i{
     color: #ffffff;
   }
   #OldBook h2 {
-    color: #ebf0f7;
+    color: #0e0e23;
     text-align: center;
     font-size: 1.2rem;
     font-weight: normal;
     margin-bottom: 3rem;
   }
   #OldBook h1 {
-    color: #ebf0f7;
+    color: #0e0e23;
     font-family: 'Ibarra Real Nova', serif;
     text-align: center;
     font-weight: 400;
@@ -54,8 +54,9 @@ body {
     font-weight: 600;
     transition: 0.5s;
     line-height: 25px;
+    padding: 11px 33px;
     text-align: center;
-    padding: 0.5rem 1rem;
+    border-radius: 80px;
     transition-delay: 0.1s;
     text-transform: capitalize;
     border: 1px solid #ff622c;
@@ -73,7 +74,7 @@ body {
     z-index: 999;
   }
   #OldBook .right-page p {
-    color: #ebf0f7;
+    color: #0e0e23;
     line-height: 1.4;
     text-align: justify;
     text-justify: inter-word;

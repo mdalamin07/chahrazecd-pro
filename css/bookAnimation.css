@@ -77,8 +77,8 @@
 }
 #book_animation .button--ghost--white {
     background-color: transparent;
-    border-color: #ebf0f7;
-    color: #ebf0f7;
+    border-color: #0e0e23;
+    color: #0e0e23;
 }
 #book_animation .button--ghost--white:hover {
     background-color: #ff622c;
@@ -312,7 +312,7 @@ kinsta-advanced-cta {
 }
 .advanced-cta-wrapper .cta--color--white,
 .advanced-cta-wrapper .has-white-color {
-    color: #ebf0f7;
+    color: #0e0e23;
 }
 .advanced-cta-wrapper .cta--bg--white,
 .advanced-cta-wrapper .has-white-background-color {

@@ -6,11 +6,11 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 }
 
 body {
-	--color-text: #f1f1f1;
-    --color-bg: #0c0c0c;
+	--color-text: #0e0e23;
+    --color-bg: #0e0e23;
     --color-link: #1ab3de;
-    --color-link-hover: #f1f1f1;
-	--color-deco: #141414;
+    --color-link-hover: #ebf0f7;
+	--color-deco: #ebf0f7e8;
 	--color-side: #353535;
 	font-family: Futura, "futura-pt", sans-serif;
 	min-height: 100vh;
@@ -276,6 +276,7 @@ a:focus {
 }
 
 .slide__title-wrap {
+	color: #ebf0f7;
 	justify-self: flex-end;
 	width: 100%;
 	position: relative;
