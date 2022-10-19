@@ -6,11 +6,11 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 }
 
 body {
-	--color-text: #0e0e23;
-    --color-bg: #0e0e23;
+	--color-text: #ebf0f7;
+    --color-bg: #ebf0f7;
     --color-link: #1ab3de;
     --color-link-hover: #ebf0f7;
-	--color-deco: #ebf0f7e8;
+	--color-deco: #0e0e23;
 	--color-side: #353535;
 	font-family: Futura, "futura-pt", sans-serif;
 	min-height: 100vh;
@@ -276,7 +276,7 @@ a:focus {
 }
 
 .slide__title-wrap {
-	color: #ebf0f7;
+	color: #ff622c;
 	justify-self: flex-end;
 	width: 100%;
 	position: relative;
@@ -475,3 +475,36 @@ a:focus {
 		text-align: justify;
 	}
 }
+
+/* Filter Start Here */
+.blur {
+	filter: blur(4px);
+}
+.brightness {
+filter: brightness(0.30);
+}
+.contrast {
+filter: contrast(180%);
+}
+.grayscale {
+filter: grayscale(100%);
+}
+.huerotate {
+filter: hue-rotate(180deg);
+}
+.invert {
+filter: invert(100%);
+}
+.opacity {
+filter: opacity(50%);
+}
+.saturate {
+filter: saturate(7);
+}
+.sepia {
+filter: sepia(100%);
+}
+.shadow {
+filter: drop-shadow(8px 8px 10px green);
+}
+/* Filter End Here */

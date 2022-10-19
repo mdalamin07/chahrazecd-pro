@@ -38,9 +38,15 @@
 	width: 20%;
   }
   .pn_review_profile img {
-	position: absolute;
-	margin: -1rem -5rem 0;
-  }
+    position: absolute;
+    margin: -2rem -6rem 0;
+    width: 115px;
+    height: 115px;
+    background-color: #ebf0f7;
+    border-radius: 50%;
+    /* padding: 0px; */
+    padding-top: 15px;
+}
   .pn_review_profile span {
 	position: absolute;
   }
