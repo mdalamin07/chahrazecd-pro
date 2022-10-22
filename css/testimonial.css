@@ -26,6 +26,11 @@
 	-moz-border-radius: 4rem;
 	-ms-border-radius: 4rem;
 	border-radius: 4rem;
+	max-height: 100%;
+	min-height: 18rem;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
   .pn_testimonial_box:hover {
 	box-shadow: 2px 4px 8px #d6d8da;
@@ -39,12 +44,11 @@
   }
   .pn_review_profile img {
     position: absolute;
-    margin: -2rem -6rem 0;
-    width: 115px;
-    height: 115px;
+    margin: -1rem -5rem 0;
+    width: 100px;
+    height: 100px;
     background-color: #ebf0f7;
     border-radius: 50%;
-    /* padding: 0px; */
     padding-top: 15px;
 }
   .pn_review_profile span {

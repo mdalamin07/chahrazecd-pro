@@ -1,7 +1,7 @@
 /*=======================
 	Menu Start Here
 ========================== */
-* {
+/* * {
 outline: none;
 -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
@@ -182,7 +182,7 @@ color: #fff;
 font-size: 28px;
 margin-right: 8px;
 color: #fff;
-}
+} */
 /*=========================
 	Menu End Here
 =========================== */
@@ -211,11 +211,11 @@ width: 100%;
 color: #fafafa;
 } */
 /*NAV*/
-#header nav {
+/* #header nav {
     padding: 24px 0px;
     display: grid;
     grid-template-columns: 150px auto auto;
-}
+} */
 .lp__nav__logo {
 color: #fafafa;
 font-weight: 600;
@@ -239,6 +239,7 @@ font-size: 12px;
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 padding: 16px 48px;
+margin-top: 100px;
 }
 .lp__grid__item {
 height: 100%;
@@ -796,6 +797,7 @@ transform: scale3d(0.5,0.5,1);
 }
 }
 #header{
+	height: 100vh;
 	background-color: #0e0e23;
 }
 /*=======================================

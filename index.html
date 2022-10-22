@@ -29,8 +29,20 @@
 	<link rel="stylesheet" href="css/footer.css">
 	<!-- Main CSS -->
 	<link rel="stylesheet" href="css/style.css">    
+	<!-- Menu CSS -->
+	<link rel="stylesheet" href="css/menu.css">
 </head>
 <body class="theme loading">
+	<svg class="hidden">
+		<symbol id="icon-menu" viewBox="0 0 119 25">
+			<title>menu</title>
+			<path d="M36,8 L36,0 L100,0 L100,8 L36,8 Z M0,8 L0,0 L24,0 L24,8 L0,8 Z M0,28 L0,20 L71,20 L71,28 L0,28 Z"/>
+		</symbol>
+		<symbol id="icon-close" viewBox="0 0 24 24">
+			<title>close</title>
+			<path d="M24 1.485L22.515 0 12 10.515 1.485 0 0 1.485 10.515 12 0 22.515 1.485 24 12 13.484 22.515 24 24 22.515 13.484 12z"/>
+		</symbol>
+	</svg>
 	<main>
 		<section id="header">
 			<div class="morph-wrap">
@@ -38,9 +50,60 @@
 					<path d="M 262.9,252.2 C 210.1,338.2 212.6,487.6 288.8,553.9 372.2,626.5 511.2,517.8 620.3,536.3 750.6,558.4 860.3,723 987.3,686.5 1089,657.3 1168,534.7 1173,429.2 1178,313.7 1096,189.1 995.1,130.7 852.1,47.07 658.8,78.95 498.1,119.2 410.7,141.1 322.6,154.8 262.9,252.2 Z"/>
 				</svg>
 			</div>
-			<nav class="menu js-menu-items-wrapper">
+			<div class="frame">
+				<header class="codrops-header">
+					<h1 class="codrops-header__title">Multibox Menu</h1>
+				</header>
+				<p class="info">12 &mdash; 24 May 2019 &middot; Bannockburn &middot; Stirling &middot; UK</p>
+			</div>
+			<nav class="menu">
+				<div class="menu__item menu__item--1" data-direction="bt">
+					<div class="menu__item-inner">
+						<div class="mainmenu">
+							<a href="#" class="mainmenu__item">L’association</a>
+							<a href="#" class="mainmenu__item">La guerre et les traités</a>
+							<a href="#" class="mainmenu__item">Les séminaires</a>
+							<a href="#" class="mainmenu__item">Contact</a>
+						</div>
+						<p class="label label--topleft label--vert-mirror">the important stuff</p>
+						<p class="label label--bottomright label--vert">made in bannockburn</p>
+					</div>
+				</div>
+				<div class="menu__item menu__item--2" data-direction="lr">
+					<div class="menu__item-inner">
+						<div class="menu__item-map"></div>
+						<a href="#" class="menu__item-hoverlink">The location</a>
+					</div>
+				</div>
+				<div class="menu__item menu__item--3" data-direction="bt">
+					<div class="menu__item-inner">
+						<div class="sidemenu">
+							<a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">The Gameplay</span></a>
+							<a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">About LARP</span></a>
+							<a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">The Rules</span></a>
+							<a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">History</span></a>
+							<a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">People</span></a>
+							<a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Join</span></a>
+							<a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">...</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="menu__item menu__item--4" data-direction="rl">
+					<div class="menu__item-inner">
+						<p class="label label--topleft label--line">Join us now</p>
+						<a href="#" class="menu__item-link">Learn how to <br> participate</a>
+					</div>
+				</div>
+				<div class="menu__item menu__item--5" data-direction="tb">
+					<div class="menu__item-inner">
+						<p class="quote">Hail to thee, our infantry, still brave, beyond the grave</p>
+					</div>
+				</div>
+				<button class="action action--menu"><svg class="icon icon--menu"><use xlink:href="#icon-menu"></use></svg></button>
+				<button class="action action--close"><svg class="icon icon--close"><use xlink:href="#icon-close"></use></svg></button>
+			</nav>
+			<!-- <nav class="menu js-menu-items-wrapper">
 				<div class="lp__nav__logo"><span>BASK</span>TOUR</div>
-				<!-- <div class="lp__nav__linkSet"> -->
 					<ol class="js-menu-items-list">
 						<li class="menu-item js-menu-item is-active" data-morph="M 418.1,159.8 C 460.9,222.9 497,321.5 452.4,383.4 417.2,432.4 371.2,405.6 271.3,420.3 137.2,440 90.45,500.6 42.16,442.8 -9.572,381 86.33,289.1 117.7,215.5 144.3,153.4 145.7,54.21 212.7,36.25 290.3,15.36 373.9,94.6 418.1,159.8 Z">
 							<a href="#0">L’association</a>
@@ -99,7 +162,7 @@
 						</path>              
 					</svg>
 				</div>
-			</nav>
+			</nav> -->
 			<div class="content-wrap">
 				<div class="lp">
 					<!--- GRID --->
@@ -225,30 +288,32 @@
 		<section id="quote">
 			<div class="quote-container">
 				<h4 class="quote-number"><span class="current">##</span>/<span class="total">##</span></h4>
-				<h4 class="quote-body"><q>There is a degree of comfort knowing Ryan is the one behind your project</q></h4>
-				<h6 class="quote-author">Jennifer Fisk<br/>
-				  <span class="author-credentials">Principal, Freestone Integrated Communications</span></h6>
+				<h4 class="quote-body"><q>« Nous avons gagné la guerre. Nous devons maintenant gagner la paix, et ce sera peut-être plus difficile »</q></h4>
+				<h6 class="quote-author">Georges Clemenceau<br/>
+				  <span class="author-credentials">11 novembre 1918</span>
+				</h6>
 				<h1 class="quote-number-bg"><sup><span class="current">##</span></sup>/<sub><span class="total">##</span></sub></h1>
 			</div>
 			<div class="quote-container">
 			<h4 class="quote-number"><span class="current">##</span>/<span class="total">##</span></h4>
-			<h4 class="quote-body"><q>His creativity & attention to detail are just the tip of the iceberg to his many talents.</q></h4>
-			<h6 class="quote-author">Benjamin Arledge<br/>
-				<span class="author-credentials">Problem Solver | Developer | App Builder</span></h6>
+			<h4 class="quote-body"><q>« N’oublions pas qu’après avoir gagné la guerre, il faut construire la paix »</q></h4>
+			<h6 class="quote-author">Dominique de Villepin, discours aux Nations-Unies contre la guerre en Irak<br/>
+				<span class="author-credentials">14 février 2003</span>
+			</h6>
 			<h1 class="quote-number-bg"><sup><span class="current">##</span></sup>/<sub><span class="total">##</span></sub></h1>
 			</div>
 			<div class="quote-container">
 			<h4 class="quote-number"><span class="current">##</span>/<span class="total">##</span></h4>
-			<h4 class="quote-body"><q>His designs are full of his passion for design & his brilliant creative mind.</q></h4>
-			<h6 class="quote-author">Christy Mayer<br/>
-				<span class="author-credentials">Art Director | Creative | Multidisciplinary Designer</span></h6>
+			<h4 class="quote-body"><q>Au fond des victoires d’Alexandre on retrouve toujours Aristote.</q></h4>
+			<h6 class="quote-author">Charles de Gaulle, Au fil de l’épée<br/>
+				<span class="author-credentials">1934</span></h6>
 			<h1 class="quote-number-bg"><sup><span class="current">##</span></sup>/<sub><span class="total">##</span></sub></h1>
 			</div>
 			<div class="quote-container">
 			<h4 class="quote-number"><span class="current">##</span>/<span class="total">##</span></h4>
-			<h4 class="quote-body"><q>A creative designer with an eye for detail. He works quickly & confidently to meet the clients’ needs.</q></h4>
-			<h6 class="quote-author">Kathryn Kindrat <br/>
-				<span class="author-credentials">Teacher</span></h6>
+			<h4 class="quote-body"><q>L’avenir n’est pas ce qu’il sera… mais ce que vous en ferez !</q></h4>
+			<h6 class="quote-author">(colonel Frédéric Guelton)<br/>
+				<!-- <span class="author-credentials">Teacher</span></h6> -->
 			<h1 class="quote-number-bg"><sup><span class="current">##</span></sup>/<sub><span class="total">##</span></sub></h1>
 			</div>
 		</section>
@@ -327,7 +392,7 @@
 						</div>
 						<div class="col-md-12 col-lg-4"data-aos="fade-right" data-aos-duration="1500">
 							<div class="pn_testimonial_box mt-4">
-								<p class="text-justify">What does Lorem Ipsum mean? Derived from Latin dolorem ipsum (“pain itself”), Lorem Ipsum is filler text used by publishers and graphic designers used to demonstrate graphic elements.</p>
+								<p class="text-justify">« J’ai particulièrement apprécié l'aspect historique, et pourtant toujours d'actualité »</p>
 								<div class="row pt-3">
 									<div class="col-md-6 pn_review_profile"><img src="img/testimonial/avatar01.png" class="border-radius-12 float-right" alt="client image" /> <span> Charles Boyle </span> </div>
 									<div class="col-md-6 pn_review_rating d-flex justify-content-end"> 5 &nbsp; <img class="image-radius aligncenter" src="https://desklib.com/static/src/assets/images/v2/star_rating.svg" alt="client stars image" /> </div>
@@ -336,7 +401,10 @@
 						</div>
 						<div class="col-md-12 col-lg-4"data-aos="zoom-in" data-aos-duration="1500">
 							<div class="pn_testimonial_box mt-4">
-								<p class="text-justify">What does Lorem Ipsum mean? Derived from Latin dolorem ipsum (“pain itself”), Lorem Ipsum is filler text used by publishers and graphic designers used to demonstrate graphic elements.</p>							<div class="row pt-3">
+								<p class="text-justify">
+									« Les intervenants particulièrement furent compétents et enthousiastes »
+								</p>							
+								<div class="row pt-3">
 									<div class="col-md-6 pn_review_profile"><img src="img/testimonial/avatar02.png" class="border-radius-12 float-right" alt="client image" /> <span> Gina Lannety </span> </div>
 									<div class="col-md-6 pn_review_rating d-flex justify-content-end"> 5 &nbsp; <img class="image-radius aligncenter" src="https://desklib.com/static/src/assets/images/v2/star_rating.svg" alt="client stars image" /> </div>
 								</div>
@@ -344,7 +412,7 @@
 						</div>
 						<div class="col-md-12 col-lg-4"data-aos="fade-left" data-aos-duration="1500">
 							<div class="pn_testimonial_box mt-4">
-								<p class="text-justify">What does Lorem Ipsum mean? Derived from Latin dolorem ipsum (“pain itself”), Lorem Ipsum is filler text used by publishers and graphic designers used to demonstrate graphic elements.</p>
+								<p class="text-justify">« J’ai trouvé ce module formidable tant dans les outils, les consignes, l'idée même »</p>
 								<div class="row pt-3">
 									<div class="col-md-6 pn_review_profile"><img src="img/testimonial/avatar03.png" class="border-radius-12 float-right" alt="client image" /> <span> Dug Judey </span> </div>
 									<div class="col-md-6 pn_review_rating d-flex justify-content-end"> 5 &nbsp; <img class="image-radius aligncenter" src="https://desklib.com/static/src/assets/images/v2/star_rating.svg" alt="stars image" /> </div>
@@ -353,7 +421,7 @@
 						</div>
 						<div class="col-md-12 col-lg-4"data-aos="fade-right" data-aos-duration="1500">
 							<div class="pn_testimonial_box mt-4">
-								<p class="text-justify">What does Lorem Ipsum mean? Derived from Latin dolorem ipsum (“pain itself”), Lorem Ipsum is filler text used by publishers and graphic designers used to demonstrate graphic elements.</p>
+								<p class="text-justify">« Puits de culture générale, passionnant »</p>
 								<div class="row pt-3">
 									<div class="col-md-6 pn_review_profile"><img src="img/testimonial/avatar04.png" class="border-radius-12 float-right" alt="client image" /> <span> Dug Judey </span> </div>
 									<div class="col-md-6 pn_review_rating d-flex justify-content-end"> 5 &nbsp; <img class="image-radius aligncenter" src="https://desklib.com/static/src/assets/images/v2/star_rating.svg" alt="stars image" /> </div>
@@ -362,7 +430,7 @@
 						</div>
 						<div class="col-md-12 col-lg-4"data-aos="zoom-in" data-aos-duration="1500">
 							<div class="pn_testimonial_box mt-4">
-								<p class="text-justify">What does Lorem Ipsum mean? Derived from Latin dolorem ipsum (“pain itself”), Lorem Ipsum is filler text used by publishers and graphic designers used to demonstrate graphic elements.</p>
+								<p class="text-justify">« Prise de hauteur au regard de l’histoire »</p>
 								<div class="row pt-3">
 									<div class="col-md-6 pn_review_profile"><img src="img/testimonial/avatar05.png" class="border-radius-12 float-right" alt="client image" /> <span> Dug Judey </span> </div>
 									<div class="col-md-6 pn_review_rating d-flex justify-content-end"> 5 &nbsp; <img class="image-radius aligncenter" src="https://desklib.com/static/src/assets/images/v2/star_rating.svg" alt="stars image" /> </div>
@@ -371,7 +439,7 @@
 						</div>
 						<div class="col-md-12 col-lg-4"data-aos="fade-left" data-aos-duration="1500">
 							<div class="pn_testimonial_box mt-4">
-								<p class="text-justify">What does Lorem Ipsum mean? Derived from Latin dolorem ipsum (“pain itself”), Lorem Ipsum is filler text used by publishers and graphic designers used to demonstrate graphic elements.</p>
+								<p class="text-justify">« Le parallèle entre les faits historiques et les pratiques managériales »</p>
 								<div class="row pt-3">
 									<div class="col-md-6 pn_review_profile"><img src="img/testimonial/avatar06.png" class="border-radius-12 float-right" alt="client image" /> <span> Dug Judey </span> </div>
 									<div class="col-md-6 pn_review_rating d-flex justify-content-end"> 5 &nbsp; <img class="image-radius aligncenter" src="https://desklib.com/static/src/assets/images/v2/star_rating.svg" alt="stars image" /> </div>
@@ -576,7 +644,7 @@
 				</div>
 			</div>
 		</footer>
-		<div id="preloader">
+		<!-- <div id="preloader">
 			<div id="status">
 			   <div class="spinner">
 				<div class="rect1"></div>
@@ -586,7 +654,7 @@
 				<div class="rect5"></div>
 			  </div>
 			</div>
-		</div>
+		</div> -->
 	</main>
 	<!-- Bootstrap Js -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
@@ -602,6 +670,7 @@
 	<!-- AOS Animation -->
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<!-- Main Js -->
+	<script src="js/menu.js"></script>
 	<script src="js/testimonial.js"></script>	
 	<script src="js/about.js"></script>
 	<script src="js/index.js"></script>
